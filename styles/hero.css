@@ -146,7 +146,7 @@ section.hero {
     }
 
     100% {
-        transform: translatex(0);
+        transform: translateX(0);
     }
 }
 
