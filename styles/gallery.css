@@ -103,7 +103,23 @@ section.gallery {
             object-fit: cover;
             border-radius: 50%;
         }
-    }    
+    } 
+    
+    @media (width < 80em) {
+        & header span {
+            font: 500 0.75rem/1.5 var(--ff-base);
+        }
+
+        & header h2 {
+            font-size: 1.5rem;
+        }
+
+        & .content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
 }
 
 @keyframes imageAppear {
