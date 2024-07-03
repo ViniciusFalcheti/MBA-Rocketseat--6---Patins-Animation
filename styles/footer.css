@@ -45,7 +45,7 @@ footer {
             content: "";
             width: 100%;
             height: 2px;
-            color: var(--snitap-sky-mid);
+            background-color: var(--snitap-sky-mid);
 
             position: absolute;
             bottom: 0;
